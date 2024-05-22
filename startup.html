@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/startup.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/synergy.jpg" alt="SynergyTech Logo">
+    </div>
+    <button id="myBtn">Přihlásit se</button>
+    <div id="myModal" class="backdrop">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Přihlášení</h2>
+            <form>
+                <label for="username">Uživatelské jméno</label>
+                <input type="text" id="username" name="username" placeholder="Uživatelské jméno" required>
+                <label for="password">Heslo</label>
+                <input type="password" id="password" name="password" placeholder="Heslo" required>
+                <button type="submit">Přihlásit se</button>
+            </form>
+        </div>
+    </div>
+</header>
+
+<section class="secondary-section">
+    <div class="content">
+        <h2>Vítejte u SynergyTech!</h2>
+        <p>Vaše brána do budoucnosti technologií. Poskytujeme inovativní řešení v oblasti herního vývoje, chytrých domácností, zdravotních technologií, internetu věcí, bezpečnosti a e-commerce, která přináší novou úroveň komfortu a efektivity.</p>
+    </div>
+    <div class="image-container">
+        <img src="images/pint.jpg.jpg" alt="Synergy Image">
+    </div>
+</section>
+<h1 class="service-heading-">Naše služby</h1>
+<main>
+    <div class="services-container"></div>
+    <div class="service-card">
+        <h2>Personální a dočasné zaměstnávání:</h2>
+        <p>SynergyTech poskytuje služby personálního obsazení, které zahrnují dočasné a dlouhodobé zaměstnávání. Pomáhají firmám najít vhodné kandidá</p>
+    </div>
+    <div class="service-card">
+        <h2>Spravované IT služby</h2>
+        <p>Poskytují komplexní správu IT infrastruktury, včetně podpory uživatelů, sdílení souborů, řízení aktiv a nákupu IT vybavení. Tyto služby jsou účtovány na základě počtu uživatelů a zahrnují podporu, bezpečnost a správu IT zdrojů (Synergy Managed IT Services).</p>
+    </div>
+    <div class="service-card">
+        <h2>Technologické a platformové dodávky</h2>
+        <p>SynergyTech se zaměřuje na poskytování špičkových technologických řešení, která podporují růst podniků. Tato služba zahrnuje konzultace, implementaci a podporu technologických platforem (Synergy Technologies).
+
+        </p>
+    </div>
+</main>
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="item active">
+            <img src="images/1.jpg.jpg" alt="Image 1" />
+        </div>
+        <div class="item">
+            <img src="images/2.jpg.jpg" alt="Image 2" />
+        </div>
+        <div class="item">
+            <img src="images/3.jpg.jpg" alt="Image 3" />
+        </div>
+        <div class="item">
+            <img src="images/4.jpg.jpg" alt="Image 4" />
+        </div>
+        <div class="item">
+            <img src="images/5.jpg.jpg" alt="Image 5" />
+        </div>
+        <div class="item">
+            <img src="images/6.jpg.jpg" alt="Image 6" />
+        </div>
+    </div>
+    <button class="btn prev">Před</button>
+    <button class="btn next">Další</button>
+    <div class="dots"></div>
+    <script src="scripts/startup.js"></script>
+</div>
+<section class="fifth-section">
+    <div class="google-map">
+        <div class="location">
+            <div class="location-frame">
+                <h1>Lokace</h1>
+                <p>Přerov</p>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6536.656135493611!2d17.450222498205484!3d49.44532121862561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713aea507eeaf87%3A0x5704a2c1a1103f3!2zUMWZZXJvdiwgxb5zdC4!5e0!3m2!1scs!2scz!4v1716301233325!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+<section class="sixth-section">
+    <div class="contact-info">
+        <h2>Kontaktujte nás</h2>
+        <p>Pošlete nám zprávu a my se budeme snažit co nerjychleji zareagovat.</p>
+    </div>
+    <form class="contact-form">
+        <div class="form-row">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" placeholder="Vložte své jméno">
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Vložte svůj email">
+        </div>
+        <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Napište vaši zprávu"></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit">Poslat</button>
+        </div>
+    </form>
+</section>
+
+<script src="scripts/startup.js"></script>
+</body>
+</html>
